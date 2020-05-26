@@ -1,0 +1,26 @@
+body {
+    background: teal;
+    color: whitesmoke;
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffffff;
+    letter-spacing: normal;
+}
+
+#portrait{
+    width: 150px;
+    position: fixed;
+    border: tomato;
+    border-style: solid;
+    border: 50px;
+}
+
+.footer{
+    font-size: 30px;
+    color: yellowgreen;
+}
