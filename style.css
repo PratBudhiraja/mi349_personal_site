@@ -1,14 +1,14 @@
 body {
-    background: teal;
+    background: black;
     color: whitesmoke;
     padding: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     padding-bottom: 5px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid blue;
     letter-spacing: normal;
 }
 
@@ -21,6 +21,45 @@ h1 {
 }
 
 .footer{
-    font-size: 30px;
-    color: yellowgreen;
+    font-size: 25px;
+}
+
+.card{
+    border-radius: 10px;
+    gap: 2px;
+    padding: 5px;
+    display: inline-block;
+}
+
+#c1 {
+    background: rebeccapurple;
+}
+
+#c2 {
+    background: maroon;
+}
+
+#c3 {
+    background: darkcyan;
+}
+
+#c4 {
+    background: green;
+}
+
+#c5{
+    position: absolute;
+    padding: 10px;
+    top: 300px;
+    left: 50px;
+}
+
+#c6{
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    #c1 {
+        background: white;
+    }
 }
